@@ -2,7 +2,7 @@
  *
  * @author owenk
  */
-class Solution {
+class gcd_string {
     public String gcdOfStrings(String str1, String str2)
     {
         // if str1 is shorter than str2, swap
@@ -27,8 +27,7 @@ class Solution {
     }
 
     public static void main(String[] args) {
-        Solution s = new Solution();
-
+        gcd_string s = new gcd_string();
         // Test cases
         System.out.println(s.gcdOfStrings("ABCABC", "ABC")); // Expected: "ABC"
         System.out.println(s.gcdOfStrings("ABABAB", "ABAB")); // Expected: "AB"
