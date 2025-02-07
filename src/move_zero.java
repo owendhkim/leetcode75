@@ -16,4 +16,3 @@ public class move_zero
         }
     }
 }
-
