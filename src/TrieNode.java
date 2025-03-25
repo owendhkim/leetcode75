@@ -1,4 +1,11 @@
-package PACKAGE_NAME;
+class TrieNode
+{
+    TrieNode[] children;
+    boolean isWordCompleted;
 
-public class TrieNode {
+    public TrieNode()
+    {
+        children = new TrieNode[26];
+        isWordCompleted = false;
+    }
 }
